@@ -6,10 +6,10 @@ using namespace std;
 int main() {
 
     // definisanje promenljivih
-    bool useBscChannel = false;  // treba staviti false ukoliko se koristi AWGN Channel
-    float errorRate = 0.5;     
-    float nV = 0.1; 
-    int length = 100; 
+    bool useBscChannel = true;  // treba staviti false ukoliko se koristi AWGN Channel
+    float errorRate = 0.2;     
+    float nV = 0.2; 
+    int length = 10; 
 
     // kreiranje objekta TestClass-a
     TestClass testClass(useBscChannel, nV, errorRate, length);

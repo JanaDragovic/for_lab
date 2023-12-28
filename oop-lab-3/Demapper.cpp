@@ -24,6 +24,7 @@ Demapper::Demapper() {
 Demapper::~Demapper() {
     delete[] output;
     delete[] outputCopy;
+    delete[] niz;
 }
 
 // ucitavanje primljenog niza simbola
